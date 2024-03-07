@@ -16,6 +16,7 @@ function page() {
         password: pass,
         redirect: false
       })
+      
       console.log(res);
       router.push("/home");
     } catch (error) {
